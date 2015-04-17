@@ -1,0 +1,7 @@
+->Run main.m after cloning the repository with the src as the working directory.
+  main.m has an example of how to use the files.
+
+->training need not be run. Dictionary is present in /dictionary
+
+
+
