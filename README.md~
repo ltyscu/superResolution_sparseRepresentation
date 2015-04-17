@@ -1,0 +1,16 @@
+# superResolution_sparseRepresentation
+Implements super-resolution algorithm via sparse representation of Raw patches in images as 
+described in paper "Image Super-Resolution as Sparse Representation of Raw Image Patches" by 
+Jianchao Yang ; ECE Dept., Univ. of Illinois at Urbana-Champaign, Urbana, IL ;Wright, J. ; 
+Huang, T. ; Yi Ma.
+
+
+
+
+The convex optimization problem in the algorithm can be solved by the MATLAB builtin function
+lasso() or using CVX solver.
+
+Two Backpropogation algorithms are implemented: itrBackPropagation() and itrBackPropagation2().
+Good results can be obtained without using back propogation but use of backpropagation gives
+marginally better results.
+
