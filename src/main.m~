@@ -30,7 +30,7 @@ codebookSize=1024;
 
 if(istraining)
 [Y,sizeh,sizel]=dict_sample(imgDir,noPatches, codebookSize,scale,patch_size,overlap);
-[Dh,Dl]=dict_train(Y,l_da,sizeh,sizel,codebookSize);
+dict_train(Y,l_da,sizeh,sizel,codebookSize);
 else
 load('Data/Dictionary/dictionary.mat');
 end

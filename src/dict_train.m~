@@ -32,9 +32,3 @@ Dl = Dict(sizeh+1:end, :);
 % normalize the dictionary extractd by the norm of the dictionary
 Dh = Dh./repmat(sqrt(sum(Dh.^2, 1)), sizeh, 1);
 Dl = Dl./repmat(sqrt(sum(Dl.^2, 1)), sizel, 1);
-
-save('Data/Dictionary/Dictionary2.mat', 'Dh', 'Dl');
-
-end
-
-
